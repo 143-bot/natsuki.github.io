@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'iconFont';  /* Project id 3983947 */
+    src: url('//at.alicdn.com/t/c/font_3983947_bya15gplwvv.woff2?t=1680347192058') format('woff2'),
+    url('//at.alicdn.com/t/c/font_3983947_bya15gplwvv.woff?t=1680347192058') format('woff'),
+    url('//at.alicdn.com/t/c/font_3983947_bya15gplwvv.ttf?t=1680347192058') format('truetype');
+}
+
+.iconFont {
+    font-family: "iconFont" !important;
+    font-size: 13px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.iconFont-menu:before {
+    content: "\e668";
+}
+
+.iconFont-lang:before {
+    content: "\e609";
+}
+
+.iconFont-bullet:before {
+    content: "\ec1e";
+}
+
+.iconFont-notice:before {
+    content: "\e657";
+}
+
+.iconFont-home-active:before {
+    content: "\e8c6";
+}
+
+.iconFont-home:before {
+    content: "\e8c7";
+}
+
+.iconFont-s:before {
+    content: '\e600';
+}
+
+.iconFont-ss:before {
+    content: '\e601';
+}
+
+.iconFont-recipe-shop:before {
+    content: '\e602';
+}
+

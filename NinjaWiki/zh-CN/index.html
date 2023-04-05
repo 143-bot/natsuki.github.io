@@ -1,0 +1,4729 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/bootstrap/4.6.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../iconfont.css">
+    <link rel="icon" href="../favicon.ico">
+    <title>首页 — Ninja Wiki</title>
+</head>
+<body class style>
+<div id="app">
+    <div class="main-wrapper">
+        <div class="navbar-bg"></div>
+        <nav class="navbar navbar-expand-lg main-navbar">
+            <form class="form-inline mr-auto">
+                <ul class="navbar-nav mr-3">
+                    <li>
+                        <a href="index.html" data-toggle="sidebar" class="nav-link nav-link-lg">
+                            <i class="iconFont iconFont-menu"></i>
+                        </a>
+                    </li>
+                </ul>
+            </form>
+            <ul class="navbar-nav navbar-right">
+                <li class="dropdown dropdown-list-toggle">
+                    <a href="#" data-toggle="dropdown" class="nav-link nav-link-lg nav-link-user">
+                        <i class="iconFont iconFont-lang" style="vertical-align: -2px; padding-right: 2px"></i>
+                        简体中文
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a href="../en/index.html" class="dropdown-item">English</a>
+                        <a href="../zh-TW/index.html" class="dropdown-item">繁體中文</a>
+                        <a href="../ja/index.html" class="dropdown-item">日本語</a>
+                        <a href="../ko/index.html" class="dropdown-item">한국어</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="main-sidebar sidebar-style-2" tabindex="1" style="overflow: hidden;outline: none">
+            <aside id="sidebar-wrapper">
+                <div class="sidebar-brand">
+                    <a href="index.html">Ninja Wiki</a>
+                </div>
+                <div class="sidebar-brand sidebar-brand-sm">
+                    <a href="index.html">Wiki</a>
+                </div>
+                <ul class="sidebar-menu">
+                    <li class="active">
+                        <a class="nav-link" href="index.html">
+                            <i class="iconFont iconFont-home-active"></i>
+                            <span>首页</span>
+                        </a>
+                    </li>
+                    <li class="menu-header">宝物图鉴</li>
+                    <li>
+                        <a class="nav-link" href="s-relic.html">
+                            <i class="iconFont iconFont-s"></i>
+                            <span>S 宝物</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="ss-relic.html">
+                            <i class="iconFont iconFont-ss"></i>
+                            <span>SS 宝物</span>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        <div class="main-content" style="min-height: 807px">
+            <section class="section">
+                <div class="section-header">
+                    <h1>首页</h1>
+                </div>
+                <!--                <div class="search">呃呃，这是一个没完成的搜索框喵</div>-->
+                <div class="row">
+                    <div class="col-12 col-md-9 col-lg-9">
+                        <div class="section-body">
+                            <h2 class="section-title">图卷商店 — 本周</h2>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-lg-3">
+                                            <ul class="list-unstyled user-details list-unstyled-border"
+                                                data-toggle="modal" data-target="#modal-ss-lghj">
+                                                <li class="media">
+                                                    <img alt="image" class="mr-3" width="50" src="../img/ss-lghj.png">
+                                                    <div class="media-items">
+                                                        <div class="media-item">
+                                                            <div class="media-label">SS龙骨号角</div>
+                                                            <div class="media-value">x150</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-lg-3">
+                                            <ul class="list-unstyled user-details list-unstyled-border"
+                                                data-toggle="modal" data-target="#modal-ss-cbdhy">
+                                                <li class="media">
+                                                    <img alt="image" class="mr-3" width="50" src="../img/ss-cbdhy.png">
+                                                    <div class="media-items">
+                                                        <div class="media-item">
+                                                            <div class="media-label">SS苍白的回忆</div>
+                                                            <div class="media-value">x150</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-lg-3">
+                                            <ul class="list-unstyled user-details list-unstyled-border"
+                                                data-toggle="modal" data-target="#modal-s-lghj">
+                                                <li class="media">
+                                                    <img alt="image" class="mr-3" width="50" src="../img/s-lghj.png">
+                                                    <div class="media-items">
+                                                        <div class="media-item">
+                                                            <div class="media-label">S龙骨号角</div>
+                                                            <div class="media-value">x150</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-lg-3">
+                                            <ul class="list-unstyled user-details list-unstyled-border"
+                                                data-toggle="modal" data-target="#modal-s-gdm">
+                                                <li class="media">
+                                                    <img alt="image" class="mr-3" width="50" src="../img/s-gdm.png">
+                                                    <div class="media-items">
+                                                        <div class="media-item">
+                                                            <div class="media-label">S鬼·达摩</div>
+                                                            <div class="media-value">x120</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-body">
+                            <h2 class="section-title">图卷商店 — 下周</h2>
+                            <div class="card">
+                                <div class="card-body">
+                                    <p>这里还什么都没有喵</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <div class="section-body">
+                            <h2 class="section-title">公告</h2>
+                            <div class="card">
+                                <div class="card-body">
+                                    <p>这里还什么都没有喵</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="main-footer">
+            <div class="footer-left">
+                2023 © Ninja Wiki
+                <div class="bullet">
+                    <i class="iconFont iconFont-bullet"></i>
+                </div>
+                <span id="copyright">
+                    Powered by wuorbs
+                    <div class="bullet">
+                        <i class="iconFont iconFont-bullet"></i>
+                    </div>
+                    Theme by wuorbs
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="popup-ann-modal" style="display: none"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>重要通知</h5>
+            </div>
+            <div class="modal-body">
+                <p>呃呃，这是一个小蒟蒻的未完工的网站</p>
+                <p>这里暂时只起到一个宝物图鉴的作用，其他功能我还在陆陆续续完成</p>
+                <p>关于网站的任何建议和问题，欢迎发送邮件到：</p>
+                <p>wuorbs@gmail.com</p>
+                <p>wuorbs@qq.com</p>
+            </div>
+            <div class="modal-footer bg-whitesmoke br">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">知道了</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--s-relics-->
+<div class="modal fade" tabindex="-1" id="modal-s-hzslj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-hzslj.png">
+                <div>
+                    <h5 class="modal-title">S火之手里剑</h5>
+                    <div class="fire">火属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        飞镖球攻击力+135，飞镖球属性转变为火系<br>
+                        飞镖球攻击力+80（小黑、小椒专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">火遁</div>
+                        火系攻击力+140
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-hzj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-hzj.png">
+                <div>
+                    <h5 class="modal-title">S火之戒</h5>
+                    <div class="fire">火属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        忍术攻击力+175<br>
+                        忍术攻击力+75（小黑、小椒专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">火遁</div>
+                        火系攻击力+140
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-lzslj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-lzslj.png">
+                <div>
+                    <h5 class="modal-title">S雷之手里剑</h5>
+                    <div class="lighting">雷属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        飞镖球攻击力+135，飞镖球属性转变为雷系<br>
+                        飞镖球攻击力+80（阿力专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="lighting">雷遁</div>
+                        雷系攻击力+140
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-lzj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-lzj.png">
+                <div>
+                    <h5 class="modal-title">S雷之戒</h5>
+                    <div class="lighting">雷属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        忍术攻击力+175<br>
+                        忍术攻击力+75（阿力专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">雷遁</div>
+                        雷系攻击力+140
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-szslj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-szslj.png">
+                <div>
+                    <h5 class="modal-title">S水之手里剑</h5>
+                    <div class="rain">水属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        飞镖球攻击力+135，飞镖球属性转变为水系<br>
+                        忍术攻击力+80（琳专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">水遁</div>
+                        水系攻击力+140
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-szj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-szj.png">
+                <div>
+                    <h5 class="modal-title">S水之戒</h5>
+                    <div class="rain">水属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        忍术攻击力+175<br>
+                        忍术攻击力+75（琳专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">水遁</div>
+                        水系攻击力+140
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-fzslj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-fzslj.png">
+                <div>
+                    <h5 class="modal-title">S风之手里剑</h5>
+                    <div class="wind">风属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        飞镖球攻击力+135，飞镖球属性转变为风系<br>
+                        飞镖球攻击力+80（苍牙专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">风遁</div>
+                        风系攻击力+140
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-fzj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-fzj.png">
+                <div>
+                    <h5 class="modal-title">S风之戒</h5>
+                    <div class="wind">风属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        忍术攻击力+175<br>
+                        忍术攻击力+75（苍牙专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">风遁</div>
+                        风系攻击力+140
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-lxwj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-lxwj.png">
+                <div>
+                    <h5 class="modal-title">S龙血围巾</h5>
+                    <div class="fire">小黑专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        得分加成+24%<br>
+                        受到BOSS伤害-4%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">黑龙</div>
+                        小黑获得三段跳能力，攻击力+100
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-lghj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-lghj.png">
+                <div>
+                    <h5 class="modal-title">S龙骨号角</h5>
+                    <div class="fire">小黑专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        攻击力+70<br>
+                        最大生命值+27
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">黑龙</div>
+                        小黑获得三段跳能力，攻击力+100
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-lywl" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-lywl.png">
+                <div>
+                    <h5 class="modal-title">S龙牙腕轮</h5>
+                    <div class="fire">小黑专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        攻击力+45<br>
+                        对恶龙攻击力+99
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">黑龙</div>
+                        小黑获得三段跳能力，攻击力+100
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-qmzw" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-qmzw.png">
+                <div>
+                    <h5 class="modal-title">S青木之吻</h5>
+                    <div class="fire">小黑专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        受到小怪伤害-1%<br>
+                        得分加成+10%<br>
+                        忍术·火龙炎弹可以破坏障碍物（小黑专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">黑龙</div>
+                        小黑获得三段跳能力，攻击力+100
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-gmyld" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-gmyld.png">
+                <div>
+                    <h5 class="modal-title">S鬼灭炎龙灯</h5>
+                    <div class="fire">小黑专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        “火属性”攻击力+142<br>
+                        对鬼族攻击力+133
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">黑龙</div>
+                        小黑获得三段跳能力，攻击力+100
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-cjcdb" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-cjcdb.png">
+                <div>
+                    <h5 class="modal-title">S超级充电宝</h5>
+                    <div class="lighting">阿力专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        最大生命值+45<br>
+                        攻击力+45
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="lighting">雷王</div>
+                        阿力生命值上限每7点转化为1点攻击力
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-jshl" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-jshl.png">
+                <div>
+                    <h5 class="modal-title">S酒神葫芦</h5>
+                    <div class="lighting">阿力专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        得分加成+24%<br>
+                        受到小怪伤害-5%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="lighting">雷王</div>
+                        阿力生命值上限每7点转化为1点攻击力
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-cdcfx" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-cdcfx.png">
+                <div>
+                    <h5 class="modal-title">S超电磁飞鞋</h5>
+                    <div class="lighting">阿力专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        漂移
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="lighting">雷王</div>
+                        阿力生命值上限每7点转化为1点攻击力
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-wdtjg" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-wdtjg.png">
+                <div>
+                    <h5 class="modal-title">S无敌铁金刚</h5>
+                    <div class="lighting">阿力专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        天赋·怒雷的方向变为向前<br>
+                        天赋-怒雷攻击力+394<br>
+                        最大生命值+43
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="lighting">雷王</div>
+                        阿力生命值上限每7点转化为1点攻击力
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-lmjgc" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-lmjgc.png">
+                <div>
+                    <h5 class="modal-title">S雷鸣金刚杵</h5>
+                    <div class="lighting">阿力专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        “雷属性”攻击力+68<br>
+                        最大生命值每7点转化为1点攻击力
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="lighting">雷王</div>
+                        阿力生命值上限每7点转化为1点攻击力
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-yhzs" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-yhzs.png">
+                <div>
+                    <h5 class="modal-title">S玉狐折扇</h5>
+                    <div class="rain">琳专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        攻击力+70<br>
+                        得分加成+20%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">玉狐</div>
+                        琳满血时，攻击力+200
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-czsl" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-czsl.png">
+                <div>
+                    <h5 class="modal-title">S苍之神铃</h5>
+                    <div class="rain">琳专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        得分加成+24%<br>
+                        最大生命值+27
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">玉狐</div>
+                        琳满血时，攻击力+200
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-bhlj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-bhlj.png">
+                <div>
+                    <h5 class="modal-title">S八寒灵镜</h5>
+                    <div class="rain">琳专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        “水属性”攻击力+77<br>
+                        受到BOSS伤害-4%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">玉狐</div>
+                        琳满血时，攻击力+200
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-bjyp" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-bjyp.png">
+                <div>
+                    <h5 class="modal-title">S冰晶羽魄</h5>
+                    <div class="rain">琳专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        攻击力+102
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">玉狐</div>
+                        琳满血时，攻击力+200
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-blhz" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-blhz.png">
+                <div>
+                    <h5 class="modal-title">S冰灵狐坠</h5>
+                    <div class="rain">琳专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        忍术攻击力+56<br>
+                        生命恢复+1点/秒<br>
+                        琳满血时，攻击力+70
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">玉狐</div>
+                        琳满血时，攻击力+200
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-tgzy" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-tgzy.png">
+                <div>
+                    <h5 class="modal-title">S天狗之牙</h5>
+                    <div class="wind">苍牙专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        得分加成+24%<br>
+                        武器技能攻击力+126
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">天狗</div>
+                        攻击力+140，苍牙生命值低于60%时攻击力+211
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-lxfz" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-lxfz.png">
+                <div>
+                    <h5 class="modal-title">S凌霄飞爪</h5>
+                    <div class="wind">苍牙专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        攻击力+70<br>
+                        最大生命值+27
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">天狗</div>
+                        攻击力+140，苍牙生命值低于60%时攻击力+211
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-tgym" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-tgym.png">
+                <div>
+                    <h5 class="modal-title">S天狗妖面</h5>
+                    <div class="wind">苍牙专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        对鬼族攻击力+99<br>
+                        得分加成+24%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">天狗</div>
+                        攻击力+140，苍牙生命值低于60%时攻击力+211
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-cbdhy" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-cbdhy.png">
+                <div>
+                    <h5 class="modal-title">S苍白的回忆</h5>
+                    <div class="wind">苍牙专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        “风属性”攻击力+60<br>
+                        受到BOSS伤害-5%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">天狗</div>
+                        攻击力+140，苍牙生命值低于60%时攻击力+211
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-flqy" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-flqy.png">
+                <div>
+                    <h5 class="modal-title">S风镰契约</h5>
+                    <div class="wind">苍牙专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        攻击力+70<br>
+                        忍术攻击力+52<br>
+                        受到的伤害-3%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">天狗</div>
+                        攻击力+140，苍牙生命值低于60%时攻击力+211
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-fhyz" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-fhyz.png">
+                <div>
+                    <h5 class="modal-title">S凤凰玉坠</h5>
+                    <div class="fire">小椒专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        生命值恢复+1点/秒<br>
+                        攻击力+75
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">红炎</div>
+                        小椒拥有3个火魄时，攻击力+250
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-qynz" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-qynz.png">
+                <div>
+                    <h5 class="modal-title">S七炎念珠</h5>
+                    <div class="fire">小椒专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        出场火魄数量+1（小椒专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">红炎</div>
+                        小椒拥有3个火魄时，攻击力+250
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-hlhj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-hlhj.png">
+                <div>
+                    <h5 class="modal-title">S红莲花烬</h5>
+                    <div class="fire">小椒专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        “火属性”攻击力+70<br>
+                        最大生命值+30
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">红炎</div>
+                        小椒拥有3个火魄时，攻击力+250
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-llzq" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-llzq.png">
+                <div>
+                    <h5 class="modal-title">S雷龙之鞘</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        武器技能冷却时间-5%<br>
+                        武器技能攻击力+119
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-bshs" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-bshs.png">
+                <div>
+                    <h5 class="modal-title">S不尸魂水</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        生命值恢复+5点/秒
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（120碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-rzyf" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-rzyf.png">
+                <div>
+                    <h5 class="modal-title">S忍宗印法</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        忍术攻击力+90<br>
+                        出场忍术能量+35%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（120碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-flhszq" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-flhszq.png">
+                <div>
+                    <h5 class="modal-title">S风林火山战旗</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        得分加成+42%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（50碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-rwls" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-rwls.png">
+                <div>
+                    <h5 class="modal-title">S仁王笼手</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        攻击力+165<br>
+                        受到伤害+9%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-chmy" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-chmy.png">
+                <div>
+                    <h5 class="modal-title">S赤蛤蟆油</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        武器技能攻击力+323
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-cxtg" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-cxtg.png">
+                <div>
+                    <h5 class="modal-title">S超星太鼓</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        攻击力+119
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-wcblw" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-wcblw.png">
+                <div>
+                    <h5 class="modal-title">S五彩兵粮丸</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        最大体力+70
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-llz" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-llz.png">
+                <div>
+                    <h5 class="modal-title">S雷龙珠</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        攻击力+77<br>
+                        最大生命值+30
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（100碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-llj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-llj.png">
+                <div>
+                    <h5 class="modal-title">S龙鳞甲</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        受到BOSS的伤害-6%<br>
+                        最大生命值+33
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-yxyxf" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-yxyxf.png">
+                <div>
+                    <h5 class="modal-title">S银枭夜行服</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        受到小怪的伤害-6%<br>
+                        最大生命值+33
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-mqdyc" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-mqdyc.png">
+                <div>
+                    <h5 class="modal-title">S魔犬的牙齿</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        得分加成+25%<br>
+                        攻击力+45
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（50碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-sdm" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-sdm.png">
+                <div>
+                    <h5 class="modal-title">S善·达摩</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        最大生命值+50
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（100碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-edm" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-edm.png">
+                <div>
+                    <h5 class="modal-title">S恶·达摩</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        攻击力+90
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（100碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-sxhf" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-sxhf.png">
+                <div>
+                    <h5 class="modal-title">S四象护符</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        最大生命值+48<br>
+                        生命值恢复+1点/秒
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-jdm" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-jdm.png">
+                <div>
+                    <h5 class="modal-title">S姬·达摩</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        对人类的攻击力+265<br>
+                        最大的生命值-9%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-nmjs" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-nmjs.png">
+                <div>
+                    <h5 class="modal-title">S南蛮技师</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        对机械BOSS的攻击力+201<br>
+                        血量低于50%时，受到机械BOSS伤害-8%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（120碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-ylsj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-ylsj.png">
+                <div>
+                    <h5 class="modal-title">S怨灵兽夹</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        攻击力+128<br>
+                        生命值恢复-4点/秒<br>
+                        生命值高于50%时，对野兽BOSS攻击力+74
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（120碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-s-gdm" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/s-gdm.png">
+                <div>
+                    <h5 class="modal-title">S鬼·达摩</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        对鬼族攻击力+265<br>
+                        最大生命值-9%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        任意A*5+600龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（120碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--ss-relics-->
+<div class="modal fade" tabindex="-1" id="modal-ss-hzslj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-hzslj.png">
+                <div>
+                    <h5 class="modal-title">SS火之手里剑</h5>
+                    <div class="fire">火属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        飞镖球攻击力+180，飞镖球属性转化为火系<br>
+                        飞镖球攻击力+90（小黑，小椒专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        S火之手里剑*2+任意S*3+3000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">火遁</div>
+                        火系攻击力+190
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-hzj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-hzj.png">
+                <div>
+                    <h5 class="modal-title">SS火之戒</h5>
+                    <div class="fire">火属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        忍术攻击力+250<br>
+                        忍术攻击力+100（小黑，小椒专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        S火之戒*2+任意S*3+3000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">火遁</div>
+                        火系攻击力+190
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-lzslj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-hzslj.png">
+                <div>
+                    <h5 class="modal-title">SS雷之手里剑</h5>
+                    <div class="lighting">雷属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        飞镖球攻击力+180，飞镖球属性转化为雷系<br>
+                        飞镖球攻击力+90（阿力专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        S雷之手里剑*2+任意S*3+3000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="lighting">雷遁</div>
+                        雷系攻击力+190
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-lzj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-lzj.png">
+                <div>
+                    <h5 class="modal-title">SS雷之戒</h5>
+                    <div class="lighting">雷属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        忍术攻击力+250<br>
+                        忍术攻击力+100（阿力专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        S雷之戒*2+任意S*3+3000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="lighting">雷遁</div>
+                        雷系攻击力+190
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-szslj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-szslj.png">
+                <div>
+                    <h5 class="modal-title">SS水之手里剑</h5>
+                    <div class="rain">水属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        飞镖球攻击力+180，飞镖球属性转化为水系<br>
+                        飞镖球攻击力+90（琳专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        S水之手里剑*2+任意S*3+3000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">水遁</div>
+                        水系攻击力+190
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-szj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-szj.png">
+                <div>
+                    <h5 class="modal-title">SS水之戒</h5>
+                    <div class="rain">水属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        忍术攻击力+250<br>
+                        忍术攻击力+100（琳专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        S水之戒*2+任意S*3+3000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">水遁</div>
+                        水系攻击力+190
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-fzslj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-fzslj.png">
+                <div>
+                    <h5 class="modal-title">SS风之手里剑</h5>
+                    <div class="wind">风属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        飞镖球攻击力+180，飞镖球属性转化为风系<br>
+                        飞镖球攻击力+90（苍牙专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        S风之手里剑*2+任意S*3+3000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">风遁</div>
+                        风系攻击力+190
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-fzj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-fzj.png">
+                <div>
+                    <h5 class="modal-title">SS风之戒</h5>
+                    <div class="wind">风属性</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        忍术攻击力+250<br>
+                        忍术攻击力+100（苍牙专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        S风之戒*2+任意S*3+3000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">风遁</div>
+                        风系攻击力+190
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-lxwj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-lxwj.png">
+                <div>
+                    <h5 class="modal-title">SS龙血围巾</h5>
+                    <div class="fire">小黑专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：得分加成+45% 受到BOSS伤害-6%<br>
+                        一阶：得分加成+54% 受到BOSS伤害-7%<br>
+                        二阶：得分加成+70% 受到BOSS伤害-8%<br>
+                        三阶：得分加成+88% 受到BOSS伤害-9%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S龙血围巾*1+任意S*4+3000龙血<br>
+                        一阶：SS龙血围巾*1+3000龙血<br>
+                        二阶：SS龙血围巾*1+任意SS*1+4000龙血<br>
+                        三阶：SS龙血围巾*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">黑龙</div>
+                        零阶：小黑获得三段跳能力，攻击力+130<br>
+                        一阶：小黑获得三段跳能力，攻击力+160<br>
+                        二阶：小黑获得三段跳能力，攻击力+200<br>
+                        三阶：小黑获得三段跳能力，攻击力+250
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-lghj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-lghj.png">
+                <div>
+                    <h5 class="modal-title">SS龙骨号角</h5>
+                    <div class="fire">小黑专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：攻击力+130 最大生命值+40<br>
+                        一阶：攻击力+155 最大生命值+50<br>
+                        二阶：攻击力+180 最大生命值+60<br>
+                        三阶：攻击力+219 最大生命值+70
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S龙骨号角*1+任意S*4+3000龙血<br>
+                        一阶：SS龙骨号角*1+3000龙血<br>
+                        二阶：SS龙骨号角*1+任意SS*1+4000龙血<br>
+                        三阶：SS龙骨号角*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">黑龙</div>
+                        零阶：小黑获得三段跳能力，攻击力+130<br>
+                        一阶：小黑获得三段跳能力，攻击力+160<br>
+                        二阶：小黑获得三段跳能力，攻击力+200<br>
+                        三阶：小黑获得三段跳能力，攻击力+250
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-lywl" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-lywl.png">
+                <div>
+                    <h5 class="modal-title">SS龙牙腕轮</h5>
+                    <div class="fire">小黑专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：攻击力+80 对恶龙攻击力+188<br>
+                        一阶：攻击力+95 对恶龙攻击力+220<br>
+                        二阶：攻击力+112 对恶龙攻击力+260<br>
+                        三阶：攻击力+132 对恶龙攻击力+301
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S龙牙腕轮*1+任意S*4+3000龙血<br>
+                        一阶：SS龙牙腕轮*1+3000龙血<br>
+                        二阶：SS龙牙腕轮*1+任意SS*1+4000龙血<br>
+                        三阶：SS龙牙腕轮*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">黑龙</div>
+                        零阶：小黑获得三段跳能力，攻击力+130<br>
+                        一阶：小黑获得三段跳能力，攻击力+160<br>
+                        二阶：小黑获得三段跳能力，攻击力+200<br>
+                        三阶：小黑获得三段跳能力，攻击力+250
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-qmzw" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-qmzw.png">
+                <div>
+                    <h5 class="modal-title">SS青木之吻</h5>
+                    <div class="fire">小黑专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：受到小怪伤害-1% 得分加成+10% 忍术·火龙炎弹可以破坏障碍物（小黑专属）<br>
+                        一阶：受到小怪伤害-3% 得分加成+25% 忍术·火龙炎弹可以破坏障碍物（小黑专属）<br>
+                        二阶：受到小怪伤害-4% 得分加成+31% 忍术·火龙炎弹可以破坏障碍物（小黑专属）<br>
+                        三阶：受到小怪伤害-5% 得分加成+39% 忍术·火龙炎弹可以破坏障碍物（小黑专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S青木之吻*1+任意S*4+3000龙血<br>
+                        一阶：SS青木之吻*1+3000龙血<br>
+                        二阶：SS青木之吻*1+任意SS*1+4000龙血<br>
+                        三阶：SS青木之吻*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">黑龙</div>
+                        零阶：小黑获得三段跳能力，攻击力+130<br>
+                        一阶：小黑获得三段跳能力，攻击力+160<br>
+                        二阶：小黑获得三段跳能力，攻击力+200<br>
+                        三阶：小黑获得三段跳能力，攻击力+250
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-gmyld" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-gmyld.png">
+                <div>
+                    <h5 class="modal-title">SS鬼灭炎龙灯</h5>
+                    <div class="fire">小黑专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：“火属性”攻击力+187 对鬼族攻击力+184<br>
+                        一阶：暂无数据<br>
+                        二阶：暂无数据<br>
+                        三阶：暂无数据
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S鬼灭炎龙灯*1+任意S*4+3000龙血<br>
+                        一阶：SS鬼灭炎龙灯*1+3000龙血<br>
+                        二阶：SS鬼灭炎龙灯*1+任意SS*1+4000龙血<br>
+                        三阶：SS鬼灭炎龙灯*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">黑龙</div>
+                        零阶：小黑获得三段跳能力，攻击力+130<br>
+                        一阶：小黑获得三段跳能力，攻击力+160<br>
+                        二阶：小黑获得三段跳能力，攻击力+200<br>
+                        三阶：小黑获得三段跳能力，攻击力+250
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-cjcdb" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-cjcdb.png">
+                <div>
+                    <h5 class="modal-title">SS超级充电宝</h5>
+                    <div class="lighting">阿力专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：最大生命值+70 攻击力+80<br>
+                        一阶：最大生命值+80 攻击力+95<br>
+                        二阶：最大生命值+90 攻击力+112<br>
+                        三阶：最大生命值+115 攻击力+132
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S超级充电宝*1+任意S*4+3000龙血<br>
+                        一阶：SS超级充电宝*1+3000龙血<br>
+                        二阶：SS超级充电宝*1+任意SS*1+4000龙血<br>
+                        三阶：SS超级充电宝*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="lighting">雷王</div>
+                        零阶：阿力最大生命值每6点转化为1点攻击力<br>
+                        一阶：阿力最大生命值每5点转化为1点攻击力<br>
+                        二阶：阿力最大生命值每4点转化为1点攻击力<br>
+                        三阶：阿力最大生命值每3点转化为1点攻击力
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-jshl" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-jshl.png">
+                <div>
+                    <h5 class="modal-title">SS酒神葫芦</h5>
+                    <div class="lighting">阿力专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：得分加成+45% 受到小怪伤害-6%<br>
+                        一阶：得分加成+54% 受到小怪伤害-7%<br>
+                        二阶：得分加成+70% 受到小怪伤害-8%<br>
+                        三阶：得分加成+88% 受到小怪伤害-9%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S酒神葫芦*1+任意S*4+3000龙血<br>
+                        一阶：SS酒神葫芦*1+3000龙血<br>
+                        二阶：SS酒神葫芦*1+任意SS*1+4000龙血<br>
+                        三阶：SS酒神葫芦*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="lighting">雷王</div>
+                        零阶：阿力最大生命值每6点转化为1点攻击力<br>
+                        一阶：阿力最大生命值每5点转化为1点攻击力<br>
+                        二阶：阿力最大生命值每4点转化为1点攻击力<br>
+                        三阶：阿力最大生命值每3点转化为1点攻击力
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-cdcfx" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-cdcfx.png">
+                <div>
+                    <h5 class="modal-title">SS超电磁飞鞋</h5>
+                    <div class="lighting">阿力专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：最大生命值+30 漂移时间+0.6（阿力专属）<br>
+                        一阶：最大生命值+60 漂移时间+1.1（阿力专属）<br>
+                        二阶：最大生命值+90 漂移时间+1.1（阿力专属）<br>
+                        三阶：最大生命值+120 漂移时间+1.6（阿力专属）
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S超电磁飞鞋*1+任意S*4+3000龙血<br>
+                        一阶：SS超电磁飞鞋*1+3000龙血<br>
+                        二阶：SS超电磁飞鞋*1+任意SS*1+4000龙血<br>
+                        三阶：SS超电磁飞鞋*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="lighting">雷王</div>
+                        零阶：阿力最大生命值每6点转化为1点攻击力<br>
+                        一阶：阿力最大生命值每5点转化为1点攻击力<br>
+                        二阶：阿力最大生命值每4点转化为1点攻击力<br>
+                        三阶：阿力最大生命值每3点转化为1点攻击力
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-wdtjg" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-wdtjg.png">
+                <div>
+                    <h5 class="modal-title">SS无敌铁金刚</h5>
+                    <div class="lighting">阿力专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：天赋·怒雷的方向变为向前 天赋·怒雷攻击力+614 最大生命值+65<br>
+                        一阶：天赋·怒雷的方向变为向前 天赋·怒雷攻击力+711 最大生命值+76<br>
+                        二阶：天赋·怒雷的方向变为向前 天赋·怒雷攻击力+846 最大生命值+87<br>
+                        三阶：天赋·怒雷的方向变为向前 天赋·怒雷攻击力+1000 最大生命值+105
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S无敌铁金刚*1+任意S*4+3000龙血<br>
+                        一阶：SS无敌铁金刚*1+3000龙血<br>
+                        二阶：SS无敌铁金刚*1+任意SS*1+4000龙血<br>
+                        三阶：SS无敌铁金刚*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="lighting">雷王</div>
+                        零阶：阿力最大生命值每6点转化为1点攻击力<br>
+                        一阶：阿力最大生命值每5点转化为1点攻击力<br>
+                        二阶：阿力最大生命值每4点转化为1点攻击力<br>
+                        三阶：阿力最大生命值每3点转化为1点攻击力
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-lmjgc" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-lmjgc.png">
+                <div>
+                    <h5 class="modal-title">SS雷鸣金刚杵</h5>
+                    <div class="lighting">阿力专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：“雷属性”攻击力+108 最大生命值每6点转化为1点攻击力<br>
+                        一阶：“雷属性”攻击力+127 最大生命值每6点转化为1点攻击力<br>
+                        二阶：“雷属性”攻击力+147 最大生命值每5点转化为1点攻击力<br>
+                        三阶：暂无数据
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S雷鸣金刚杵*1+任意S*4+3000龙血<br>
+                        一阶：SS雷鸣金刚杵*1+3000龙血<br>
+                        二阶：SS雷鸣金刚杵*1+任意SS*1+4000龙血<br>
+                        三阶：SS雷鸣金刚杵*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="lighting">雷王</div>
+                        零阶：阿力最大生命值每6点转化为1点攻击力<br>
+                        一阶：阿力最大生命值每5点转化为1点攻击力<br>
+                        二阶：阿力最大生命值每4点转化为1点攻击力<br>
+                        三阶：阿力最大生命值每3点转化为1点攻击力
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-yhzs" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-yhzs.png">
+                <div>
+                    <h5 class="modal-title">SS玉狐折扇</h5>
+                    <div class="rain">琳专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：攻击力+135 得分加成+25%<br>
+                        一阶：攻击力+155 得分加成+30%<br>
+                        二阶：攻击力+180 得分加成+35%<br>
+                        三阶：攻击力+219 得分加成+40%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S玉狐折扇*1+任意S*4+3000龙血<br>
+                        一阶：SS玉狐折扇*1+3000龙血<br>
+                        二阶：SS玉狐折扇*1+任意SS*1+4000龙血<br>
+                        三阶：SS玉狐折扇*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">玉狐</div>
+                        零阶：琳满血时，攻击力+250<br>
+                        一阶：琳满血时，攻击力+300<br>
+                        二阶：琳满血时，攻击力+400<br>
+                        三阶：琳满血时，攻击力+500
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-czsl" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-czsl.png">
+                <div>
+                    <h5 class="modal-title">SS苍之神铃</h5>
+                    <div class="rain">琳专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：得分加成+45% 最大生命值+40<br>
+                        一阶：得分加成+54% 最大生命值+50<br>
+                        二阶：得分加成+70% 最大生命值+62<br>
+                        三阶：得分加成+88% 最大生命值+70
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S苍之神铃*1+任意S*4+3000龙血<br>
+                        一阶：SS苍之神铃*1+3000龙血<br>
+                        二阶：SS苍之神铃*1+任意SS*1+4000龙血<br>
+                        三阶：SS苍之神铃*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">玉狐</div>
+                        零阶：琳满血时，攻击力+250<br>
+                        一阶：琳满血时，攻击力+300<br>
+                        二阶：琳满血时，攻击力+400<br>
+                        三阶：琳满血时，攻击力+500
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-bhlj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-bhlj.png">
+                <div>
+                    <h5 class="modal-title">SS八寒灵镜</h5>
+                    <div class="rain">琳专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：“水属性”攻击力+155 受到BOSS伤害-6%<br>
+                        一阶：“水属性”攻击力+180 受到BOSS伤害-7%<br>
+                        二阶：“水属性”攻击力+205 受到BOSS伤害-8%<br>
+                        三阶：“水属性”攻击力+242 受到BOSS伤害-9%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S八寒灵镜*1+任意S*4+3000龙血<br>
+                        一阶：SS八寒灵镜*1+3000龙血<br>
+                        二阶：SS八寒灵镜*1+任意SS*1+4000龙血<br>
+                        三阶：SS八寒灵镜*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">玉狐</div>
+                        零阶：琳满血时，攻击力+250<br>
+                        一阶：琳满血时，攻击力+300<br>
+                        二阶：琳满血时，攻击力+400<br>
+                        三阶：琳满血时，攻击力+500
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-bjyp" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-bjyp.png">
+                <div>
+                    <h5 class="modal-title">SS冰晶羽魄</h5>
+                    <div class="rain">琳专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：攻击力+195 最大生命值+30<br>
+                        一阶：攻击力+245 最大生命值+35<br>
+                        二阶：攻击力+305 最大生命值+40<br>
+                        三阶：攻击力+375 最大生命值+45
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S冰晶羽魄*1+任意S*4+3000龙血<br>
+                        一阶：SS冰晶羽魄*1+3000龙血<br>
+                        二阶：SS冰晶羽魄*1+任意SS*1+4000龙血<br>
+                        三阶：SS冰晶羽魄*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">玉狐</div>
+                        零阶：琳满血时，攻击力+250<br>
+                        一阶：琳满血时，攻击力+300<br>
+                        二阶：琳满血时，攻击力+400<br>
+                        三阶：琳满血时，攻击力+500
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-blhz" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-blhz.png">
+                <div>
+                    <h5 class="modal-title">SS冰灵狐坠</h5>
+                    <div class="rain">琳专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：忍术攻击力+111 生命值恢复+2点/秒 满血时，攻击力+105<br>
+                        一阶：忍术攻击力+132 生命值恢复+2点/秒 满血时，攻击力+144<br>
+                        二阶：暂无数据<br>
+                        三阶：暂无数据
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S冰灵狐坠*1+任意S*4+3000龙血<br>
+                        一阶：SS冰灵狐坠*1+3000龙血<br>
+                        二阶：SS冰灵狐坠*1+任意SS*1+4000龙血<br>
+                        三阶：SS冰灵狐坠*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="rain">玉狐</div>
+                        零阶：琳满血时，攻击力+250<br>
+                        一阶：琳满血时，攻击力+300<br>
+                        二阶：琳满血时，攻击力+400<br>
+                        三阶：琳满血时，攻击力+500
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-tgzy" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-tgzy.png">
+                <div>
+                    <h5 class="modal-title">SS天狗之牙</h5>
+                    <div class="wind">苍牙专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：得分加成+45% 武器技能攻击力+175<br>
+                        一阶：得分加成+54% 武器技能攻击力+235<br>
+                        二阶：得分加成+70% 武器技能攻击力+299<br>
+                        三阶：得分加成+88% 武器技能攻击力+365
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S天狗之牙*1+任意S*4+3000龙血<br>
+                        一阶：SS天狗之牙*1+3000龙血<br>
+                        二阶：SS天狗之牙*1+任意SS*1+4000龙血<br>
+                        三阶：SS天狗之牙*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">天狗</div>
+                        零阶：攻击力+162，苍牙体力低于60%时，攻击力+243<br>
+                        一阶：攻击力+178，苍牙体力低于60%时，攻击力+267<br>
+                        二阶：攻击力+194，苍牙体力低于60%时，攻击力+292<br>
+                        三阶：攻击力+210，苍牙体力低于60%时，攻击力+316
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-lxfz" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-lxfz.png">
+                <div>
+                    <h5 class="modal-title">SS凌霄飞爪</h5>
+                    <div class="wind">苍牙专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：攻击力+130 最大体力+40<br>
+                        一阶：攻击力+155 最大体力+50<br>
+                        二阶：攻击力+180 最大体力+60<br>
+                        三阶：攻击力+219 最大体力+70
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S凌霄飞爪*1+任意S*4+3000龙血<br>
+                        一阶：SS凌霄飞爪*1+3000龙血<br>
+                        二阶：SS凌霄飞爪*1+任意SS*1+4000龙血<br>
+                        三阶：SS凌霄飞爪*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">天狗</div>
+                        零阶：攻击力+162，苍牙体力低于60%时，攻击力+243<br>
+                        一阶：攻击力+178，苍牙体力低于60%时，攻击力+267<br>
+                        二阶：攻击力+194，苍牙体力低于60%时，攻击力+292<br>
+                        三阶：攻击力+210，苍牙体力低于60%时，攻击力+316
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-tgym" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-tgym.png">
+                <div>
+                    <h5 class="modal-title">SS天狗妖面</h5>
+                    <div class="wind">苍牙专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：对鬼族攻击力+188 得分加成+35%<br>
+                        一阶：对鬼族攻击力+220 得分加成+45%<br>
+                        二阶：暂无数据<br>
+                        三阶：暂无数据
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S凌霄飞爪*1+任意S*4+3000龙血<br>
+                        一阶：SS凌霄飞爪*1+3000龙血<br>
+                        二阶：SS凌霄飞爪*1+任意SS*1+4000龙血<br>
+                        三阶：SS凌霄飞爪*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">天狗</div>
+                        零阶：攻击力+162，苍牙体力低于60%时，攻击力+243<br>
+                        一阶：攻击力+178，苍牙体力低于60%时，攻击力+267<br>
+                        二阶：攻击力+194，苍牙体力低于60%时，攻击力+292<br>
+                        三阶：攻击力+210，苍牙体力低于60%时，攻击力+316
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-cbdhy" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-cbdhy.png">
+                <div>
+                    <h5 class="modal-title">SS苍白的回忆</h5>
+                    <div class="wind">苍牙专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：“风属性”攻击力+138 受到BOSS伤害-7%<br>
+                        一阶：“风属性”攻击力+163 受到BOSS伤害-8%<br>
+                        二阶：“风属性”攻击力+188 受到BOSS伤害-9%<br>
+                        三阶：“风属性”攻击力+225 受到BOSS伤害-10%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S苍白的回忆*1+任意S*4+3000龙血<br>
+                        一阶：SS苍白的回忆*1+3000龙血<br>
+                        二阶：SS苍白的回忆*1+任意SS*1+4000龙血<br>
+                        三阶：SS苍白的回忆*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">天狗</div>
+                        零阶：攻击力+162，苍牙体力低于60%时，攻击力+243<br>
+                        一阶：攻击力+178，苍牙体力低于60%时，攻击力+267<br>
+                        二阶：攻击力+194，苍牙体力低于60%时，攻击力+292<br>
+                        三阶：攻击力+210，苍牙体力低于60%时，攻击力+316
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-flqy" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-flqy.png">
+                <div>
+                    <h5 class="modal-title">SS风镰契约</h5>
+                    <div class="wind">苍牙专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：攻击力+109 忍术攻击力+74 受到伤害-5%<br>
+                        一阶：攻击力+147 忍术攻击力+105 受到伤害-6%<br>
+                        二阶：暂无数据<br>
+                        三阶：暂无数据
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S风镰契约*1+任意S*4+3000龙血<br>
+                        一阶：SS风镰契约*1+3000龙血<br>
+                        二阶：SS风镰契约*1+任意SS*1+4000龙血<br>
+                        三阶：SS风镰契约*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="wind">天狗</div>
+                        零阶：攻击力+162，苍牙体力低于60%时，攻击力+243<br>
+                        一阶：攻击力+178，苍牙体力低于60%时，攻击力+267<br>
+                        二阶：攻击力+194，苍牙体力低于60%时，攻击力+292<br>
+                        三阶：攻击力+210，苍牙体力低于60%时，攻击力+316
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-fhyz" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-fhyz.png">
+                <div>
+                    <h5 class="modal-title">SS凤凰玉坠</h5>
+                    <div class="fire">小椒专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：生命值恢复+1点/秒 攻击力+135<br>
+                        一阶：生命值恢复+2点/秒 攻击力+165<br>
+                        二阶：生命值恢复+2点/秒 攻击力+200<br>
+                        三阶：暂无数据
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S凤凰玉坠*1+任意S*4+3000龙血<br>
+                        一阶：SS凤凰玉坠*1+3000龙血<br>
+                        二阶：SS凤凰玉坠*1+任意SS*1+4000龙血<br>
+                        三阶：SS凤凰玉坠*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">红炎</div>
+                        零阶：小椒持有3个火魄时，攻击力+300<br>
+                        一阶：小椒持有3个火魄时，攻击力+350<br>
+                        二阶：小椒持有3个火魄时，攻击力+400<br>
+                        三阶：小椒持有3个火魄时，攻击力+500
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-qynz" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-qynz.png">
+                <div>
+                    <h5 class="modal-title">SS七炎念珠</h5>
+                    <div class="fire">小椒专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：出场火魄数量+2（小椒专属）<br>
+                        一阶：出场火魄数量+2（小椒专属） 最大生命值+20<br>
+                        二阶：暂无数据<br>
+                        三阶：暂无数据
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S七炎念珠*1+任意S*4+3000龙血<br>
+                        一阶：SS七炎念珠*1+3000龙血<br>
+                        二阶：SS七炎念珠*1+任意SS*1+4000龙血<br>
+                        三阶：SS七炎念珠*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">红炎</div>
+                        零阶：小椒持有3个火魄时，攻击力+300<br>
+                        一阶：小椒持有3个火魄时，攻击力+350<br>
+                        二阶：小椒持有3个火魄时，攻击力+400<br>
+                        三阶：小椒持有3个火魄时，攻击力+500
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-hlhj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-hlhj.png">
+                <div>
+                    <h5 class="modal-title">SS红莲花烬</h5>
+                    <div class="fire">小椒专属</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：“火属性”攻击力+140 最大生命值+45<br>
+                        一阶：“火属性”攻击力+172 最大生命值+54<br>
+                        二阶：“火属性”攻击力+198 最大生命值+64<br>
+                        三阶：暂无数据
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S红莲花烬*1+任意S*4+3000龙血<br>
+                        一阶：SS红莲花烬*1+3000龙血<br>
+                        二阶：SS红莲花烬*1+任意SS*1+4000龙血<br>
+                        三阶：SS红莲花烬*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        <div class="fire">红炎</div>
+                        零阶：小椒持有3个火魄时，攻击力+300<br>
+                        一阶：小椒持有3个火魄时，攻击力+350<br>
+                        二阶：小椒持有3个火魄时，攻击力+400<br>
+                        三阶：小椒持有3个火魄时，攻击力+500
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-llzq" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-llzq.png">
+                <div>
+                    <h5 class="modal-title">SS雷龙之鞘</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：武器技能冷却时间-7% 武器技能攻击力+219<br>
+                        一阶：武器技能冷却时间-8% 武器技能攻击力+270<br>
+                        二阶：武器技能冷却时间-9% 武器技能攻击力+322<br>
+                        三阶：武器技能冷却时间-10% 武器技能攻击力+399
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S雷龙之鞘*1+S雷龙珠*1+任意S*3+3000龙血<br>
+                        一阶：SS雷龙之鞘*1+3000龙血<br>
+                        二阶：SS雷龙之鞘*1+任意SS*1+4000龙血<br>
+                        三阶：SS雷龙之鞘*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（100碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-bshs" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-bshs.png">
+                <div>
+                    <h5 class="modal-title">SS不尸魂水</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：生命值恢复+7点/秒 攻击力+40<br>
+                        一阶：生命值恢复+8点/秒 攻击力+55<br>
+                        二阶：生命值恢复+9点/秒 攻击力+70<br>
+                        三阶：生命值恢复+11点/秒 攻击力+85
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S不尸魂水*1+S赤蛤蟆油*1+任意S*3+3000龙血<br>
+                        一阶：SS不尸魂水*1+3000龙血<br>
+                        二阶：SS不尸魂水*1+任意SS*1+4000龙血<br>
+                        三阶：SS不尸魂水*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-rzyf" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-rzyf.png">
+                <div>
+                    <h5 class="modal-title">SS忍宗印法</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：忍术攻击力+105 出场忍术能量+45%<br>
+                        一阶：忍术攻击力+120 出场忍术能量+55%<br>
+                        二阶：忍术攻击力+135 出场忍术能量+65%<br>
+                        三阶：忍术攻击力+150 出场忍术能量+75%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S忍宗印法*1+S五彩兵粮丸*1+任意S*3+3000龙血<br>
+                        一阶：SS忍宗印法*1+3000龙血<br>
+                        二阶：SS忍宗印法*1+任意SS*1+4000龙血<br>
+                        三阶：SS忍宗印法*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-yhzq" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-yhzq.png">
+                <div>
+                    <h5 class="modal-title">SS炎魂战旗</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：得分加成+48% 最大生命值+42<br>
+                        一阶：得分加成+60% 最大生命值+54<br>
+                        二阶：得分加成+80% 最大生命值+66<br>
+                        三阶：得分加成+100% 最大生命值+80
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S风林火山战旗*1+S超星太鼓*1+任意S*3+3000龙血<br>
+                        一阶：SS炎魂战旗*1+3000龙血<br>
+                        二阶：SS炎魂战旗*1+任意SS*1+4000龙血<br>
+                        三阶：SS炎魂战旗*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（50碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-rwls" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-rwls.png">
+                <div>
+                    <h5 class="modal-title">SS仁王笼手</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：攻击力+239 受到伤害+12%<br>
+                        一阶：攻击力+291 受到伤害+11%<br>
+                        二阶：攻击力+349 受到伤害+10%<br>
+                        三阶：攻击力+409 受到伤害+10%
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S仁王笼手*1+S超星太鼓*1+任意S*3+3000龙血<br>
+                        一阶：SS仁王笼手*1+3000龙血<br>
+                        二阶：SS仁王笼手*1+任意SS*1+4000龙血<br>
+                        三阶：SS仁王笼手*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-hbjz" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-hbjz.png">
+                <div>
+                    <h5 class="modal-title">SS寒冰卷轴</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：<br>
+                        出场携带寒冰卷轴，触发时释放暴风雪（一个忍者单局仅可触发一次卷轴技能，故事模式不生效）<br>
+                        一阶：<br>
+                        出场携带寒冰卷轴，触发时释放暴风雪（一个忍者单局仅可触发一次卷轴技能，故事模式不生效）<br>
+                        “水属性”攻击力+65 触发时水属性武器攻击力+168 武器攻击力提升的时间+7秒<br>
+                        二阶：<br>
+                        出场携带寒冰卷轴，触发时释放暴风雪（一个忍者单局仅可触发一次卷轴技能，故事模式不生效）<br>
+                        “水属性”攻击力+130 触发时水属性武器攻击力+338 武器攻击力提升的时间+8秒<br>
+                        三阶：<br>
+                        暂无数据
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S善·达摩*1+S恶·达摩*1+任意S*3+3000龙血<br>
+                        一阶：SS寒冰卷轴*1+3000龙血<br>
+                        二阶：SS寒冰卷轴*1+任意SS*1+4000龙血<br>
+                        三阶：SS寒冰卷轴*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（300碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-bgyxl" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-bgyxl.png">
+                <div>
+                    <h5 class="modal-title">SS百鬼夜行录</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：得分加成+45% 攻击力+86<br>
+                        一阶：得分加成+55% 攻击力+99<br>
+                        二阶：暂无数据<br>
+                        三阶：暂无数据<br>
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S赤蛤蟆油*1+S魔犬的牙齿*1+任意S*3+3000龙血<br>
+                        一阶：SS百鬼夜行录*1+3000龙血<br>
+                        二阶：SS百鬼夜行录*1+任意SS*1+4000龙血<br>
+                        三阶：SS百鬼夜行录*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（50碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-bdmwj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-bdmwj.png">
+                <div>
+                    <h5 class="modal-title">SS不动明王甲</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：受到的伤害-7% 最大生命值+42<br>
+                        一阶：受到的伤害-8% 最大生命值+54<br>
+                        二阶：受到的伤害-9% 最大生命值+66<br>
+                        三阶：受到的伤害-11% 最大生命值+80<br>
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S银枭夜行服*1+S龙鳞甲*1+任意S*3+3000龙血<br>
+                        一阶：SS不动明王甲*1+3000龙血<br>
+                        二阶：SS不动明王甲*1+任意SS*1+4000龙血<br>
+                        三阶：SS不动明王甲*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（150碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-sxhf" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-sxhf.png">
+                <div>
+                    <h5 class="modal-title">SS四象护符</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：最大生命值+60 生命值恢复+1点/秒 获得一个音元罩，抵挡1次伤害（故事模式不生效）<br>
+                        一阶：最大生命值+65 生命值恢复+2点/秒 获得一个音元罩，抵挡1次伤害（故事模式不生效）<br>
+                        二阶：最大生命值+72 生命值恢复+2点/秒 获得一个音元罩，抵挡2次伤害（故事模式不生效）<br>
+                        三阶：最大生命值+80 生命值恢复+3点/秒 获得一个音元罩，抵挡2次伤害（故事模式不生效）<br>
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S四象护符*1+任意S*4+3000龙血<br>
+                        一阶：SS四象护符*1+3000龙血<br>
+                        二阶：SS四象护符*1+任意SS*1+4000龙血<br>
+                        三阶：SS四象护符*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（80碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-jdm" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-jdm.png">
+                <div>
+                    <h5 class="modal-title">SS姬·达摩</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：对人类攻击力+339 最大生命值-12%<br>
+                        一阶：对人类攻击力+391 最大生命值-11%<br>
+                        二阶：对人类攻击力+449 最大生命值-10%<br>
+                        三阶：对人类攻击力+509 最大生命值-10%<br>
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S姬·达摩*1+任意S*4+3000龙血<br>
+                        一阶：SS姬·达摩*1+3000龙血<br>
+                        二阶：SS姬·达摩*1+任意SS*1+4000龙血<br>
+                        三阶：SS姬·达摩*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（120碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-nmjs" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-nmjs.png">
+                <div>
+                    <h5 class="modal-title">SS南蛮技师</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：对机械BOSS攻击力+275 生命值低于50%时，受到机械BOSS伤害-10%<br>
+                        一阶：对机械BOSS攻击力+326 生命值低于50%时，受到机械BOSS伤害-11%<br>
+                        二阶：对机械BOSS攻击力+385 生命值低于50%时，受到机械BOSS伤害-12%<br>
+                        三阶：对机械BOSS攻击力+445 生命值低于50%时，受到机械BOSS伤害-13%<br>
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S南蛮技师*1+任意S*4+3000龙血<br>
+                        一阶：SS南蛮技师*1+3000龙血<br>
+                        二阶：SS南蛮技师*1+任意SS*1+4000龙血<br>
+                        三阶：SS南蛮技师*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（120碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-ylsj" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-ylsj.png">
+                <div>
+                    <h5 class="modal-title">SS怨灵兽夹</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：攻击力+190 生命值恢复-3点/秒 生命值高于50%时，对野兽BOSS攻击力+103<br>
+                        一阶：攻击力+231 生命值恢复-3点/秒 生命值高于50%时，对野兽BOSS攻击力+124<br>
+                        二阶：攻击力+278 生命值恢复-2点/秒 生命值高于50%时，对野兽BOSS攻击力+145<br>
+                        三阶：攻击力+331 生命值恢复-2点/秒 生命值高于50%时，对野兽BOSS攻击力+171<br>
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S怨灵兽夹*1+任意S*4+3000龙血<br>
+                        一阶：SS怨灵兽夹*1+3000龙血<br>
+                        二阶：SS怨灵兽夹*1+任意SS*1+4000龙血<br>
+                        三阶：SS怨灵兽夹*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（120碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-gdm" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-gdm.png">
+                <div>
+                    <h5 class="modal-title">SS鬼·达摩</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：对鬼族攻击力+339 最大生命值-12%<br>
+                        一阶：对鬼族攻击力+391 最大生命值-11%<br>
+                        二阶：对鬼族攻击力+449 最大生命值-10%<br>
+                        三阶：对鬼族攻击力+509 最大生命值-10%<br>
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S鬼·达摩*1+任意S*4+3000龙血<br>
+                        一阶：SS鬼·达摩*1+3000龙血<br>
+                        二阶：SS鬼·达摩*1+任意SS*1+4000龙血<br>
+                        三阶：SS鬼·达摩*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（120碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-frjz" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-frjz.png">
+                <div>
+                    <h5 class="modal-title">SS风刃卷轴</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：<br>
+                        出场携带风刃卷轴，触发时释放风之刃（一个忍者单局仅可触发一次卷轴技能，故事模式不生效）<br>
+                        一阶：<br>
+                        出场携带风刃卷轴，触发时释放风之刃（一个忍者单局仅可触发一次卷轴技能，故事模式不生效）<br>
+                        “风属性”攻击力+65 触发时风属性武器技能攻击力+168 武器攻击力提升时间+7秒<br>
+                        二阶：<br>
+                        出场携带风刃卷轴，触发时释放风之刃（一个忍者单局仅可触发一次卷轴技能，故事模式不生效）<br>
+                        “风属性”攻击力+130 触发时风属性武器技能攻击力+338 武器攻击力提升时间+8秒<br>
+                        三阶：<br>
+                        暂无数据集<br>
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S鬼·达摩*1+S恶·达摩+任意S*3+3000龙血<br>
+                        一阶：SS风刃卷轴*1+3000龙血<br>
+                        二阶：SS风刃卷轴*1+任意SS*1+4000龙血<br>
+                        三阶：SS风刃卷轴*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-lnjz" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-lnjz.png">
+                <div>
+                    <h5 class="modal-title">SS雷鸟卷轴</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：<br>
+                        出场携带雷鸟卷轴，触发时释放千鸟雷鸣（一个忍者单局仅可触发一次卷轴技能，故事模式不生效）<br>
+                        一阶：<br>
+                        出场携带雷鸟卷轴，触发时释放千鸟雷鸣（一个忍者单局仅可触发一次卷轴技能，故事模式不生效）<br>
+                        “雷属性”攻击力+65 触发时雷属性武器技能攻击力+168 武器攻击力提升时间+7秒<br>
+                        二阶：<br>
+                        出场携带雷鸟卷轴，触发时释放千鸟雷鸣（一个忍者单局仅可触发一次卷轴技能，故事模式不生效）<br>
+                        “雷属性”攻击力+130 触发时雷属性武器技能攻击力+338 武器攻击力提升时间+8秒<br>
+                        三阶：<br>
+                        暂无数据集<br>
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S善·达摩*1+S姬·达摩+任意S*3+3000龙血<br>
+                        一阶：SS雷鸟卷轴*1+3000龙血<br>
+                        二阶：SS雷鸟卷轴*1+任意SS*1+4000龙血<br>
+                        三阶：SS雷鸟卷轴*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="modal-ss-hyjz" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img alt="image" class="mr-3" width="50" src="../img/ss-hyjz.png">
+                <div>
+                    <h5 class="modal-title">SS火焰卷轴</h5>
+                    <div class="other">其他</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    基本属性<br>
+                    <code>
+                        零阶：<br>
+                        出场携带火焰卷轴，触发时释放火球术（一个忍者单局仅可触发一次卷轴技能，故事模式不生效）<br>
+                        一阶：<br>
+                        出场携带火焰卷轴，触发时释放火球术（一个忍者单局仅可触发一次卷轴技能，故事模式不生效）<br>
+                        “火属性”攻击力+65 触发时火属性武器技能攻击力+168 武器攻击力提升时间+7秒<br>
+                        二阶：<br>
+                        出场携带火焰卷轴，触发时释放火球术（一个忍者单局仅可触发一次卷轴技能，故事模式不生效）<br>
+                        “火属性”攻击力+130 触发时火属性武器技能攻击力+338 武器攻击力提升时间+8秒<br>
+                        三阶：<br>
+                        暂无数据集<br>
+                    </code>
+                </div>
+                <div class="mb-3">
+                    合成材料<br>
+                    <code>
+                        零阶：S鬼·达摩*1+S姬·达摩+任意S*3+3000龙血<br>
+                        一阶：SS火焰卷轴*1+3000龙血<br>
+                        二阶：SS火焰卷轴*1+任意SS*1+4000龙血<br>
+                        三阶：SS火焰卷轴*2+任意SS*2+5000龙血
+                    </code>
+                </div>
+                <div class="mb-3">
+                    套装属性<br>
+                    <code>
+                        无
+                    </code>
+                </div>
+                <div class="mb-3">
+                    卷轴商店刷新日期<br>
+                    <code>
+                        暂无数据（？碎片）
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/popper.js/1.14.4/umd/popper.min.js"></script>
+<script src="https://cdn.staticfile.org/tooltip.js/1.3.2/umd/tooltip.min.js"></script>
+<script src="https://cdn.staticfile.org/bootstrap/4.6.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.staticfile.org/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>

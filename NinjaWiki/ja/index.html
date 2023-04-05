@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/bootstrap/4.6.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../iconfont.css">
+    <link rel="icon" href="../favicon.ico">
+    <title>トップページ — Ninja Wiki</title>
+</head>
+<body class style>
+<div id="app">
+    <div class="main-wrapper">
+        <div class="navbar-bg"></div>
+        <nav class="navbar navbar-expand-lg main-navbar">
+            <form class="form-inline mr-auto">
+                <ul class="navbar-nav mr-3">
+                    <li>
+                        <a href="index.html" data-toggle="sidebar" class="nav-link nav-link-lg">
+                            <i class="iconFont iconFont-menu"></i>
+                        </a>
+                    </li>
+                </ul>
+            </form>
+            <ul class="navbar-nav navbar-right">
+                <li class="dropdown dropdown-list-toggle">
+                    <a href="#" data-toggle="dropdown" class="nav-link nav-link-lg nav-link-user">
+                        <i class="iconFont iconFont-lang" style="vertical-align: -2px; padding-right: 2px"></i>
+                        日本語
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a href="../en/index.html" class="dropdown-item">English</a>
+                        <a href="../zh-CN/index.html" class="dropdown-item">简体中文</a>
+                        <a href="../zh-TW/index.html" class="dropdown-item">繁體中文</a>
+                        <a href="../ko/index.html" class="dropdown-item">한국어</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="main-sidebar sidebar-style-2" tabindex="1" style="overflow: hidden;outline: none">
+            <aside id="sidebar-wrapper">
+                <div class="sidebar-brand">
+                    <a href="#">Ninja Wiki</a>
+                </div>
+                <div class="sidebar-brand sidebar-brand-sm">
+                    <a href="#">Wiki</a>
+                </div>
+                <ul class="sidebar-menu">
+                    <li class="active">
+                        <a class="nav-link" href="index.html">
+                            <i class="iconFont iconFont-home-active"></i>
+                            <span>トップページ</span>
+                        </a>
+                    </li>
+                    <li class="menu-header">忍具製作書</li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="iconFont iconFont-s"></i>
+                            <span>S 忍具</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="iconFont iconFont-ss"></i>
+                            <span>SS 忍具</span>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        <div class="main-content" style="min-height: 807px">
+            <section class="section">
+                <div class="section-header">
+                    <h1>トップページ</h1>
+                </div>
+                <div class="search">ええと, これは未完成な検索枠ですにゃ</div>
+                <div class="row">
+                    <div class="col-12 col-md-7 col-lg-7">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>
+                                    <i class="iconFont iconFont-recipe-shop"></i>
+                                    製作書商店 — 今週
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <p>ここにはまだ何もない</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>
+                                    <i class="iconFont iconFont-recipe-shop"></i>
+                                    製作書商店 — 来週
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <p>ここにはまだ何もない</p></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-5">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>
+                                    <i class="iconFont iconFont-notice"></i>
+                                    公告
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <p>ここにはまだ何もない</p></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="main-footer">
+            <div class="footer-left">
+                2023 © Ninja Wiki
+                <div class="bullet">
+                    <i class="iconFont iconFont-bullet"></i>
+                </div>
+                <span id="copyright">
+                    Powered by wuorbs
+                    <div class="bullet">
+                        <i class="iconFont iconFont-bullet"></i>
+                    </div>
+                    Theme by wuorbs
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" id="popup-ann-modal" style="display: none"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>重要なお知らせ</h5>
+            </div>
+            <div class="modal-body">
+                <p>ええと、これは未完成なウェブサイトです</p>
+                <p>Webサイトのアドバイスや質問については、次のようにメールを送信してください: </p>
+                <p>wuorbs@gmail.com</p>
+                <p>wuorbs@qq.com</p>
+            </div>
+            <div class="modal-footer bg-whitesmoke br">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">わかりました</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/popper.js/1.14.4/umd/popper.min.js"></script>
+<script src="https://cdn.staticfile.org/tooltip.js/1.3.2/umd/tooltip.min.js"></script>
+<script src="https://cdn.staticfile.org/bootstrap/4.6.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.staticfile.org/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>
